@@ -3,9 +3,9 @@ sidebar_position: 1
 slug: /
 ---
 
-# Tutorial Intro
+# RhythMC
 
-Let's discover **Docusaurus in less than 5 minutes**.
+欢迎来到RhythMC的文档. 大多数问题都能在这里找到答案哦~
 
 ## Getting Started
 
