@@ -45,7 +45,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/KazuhaAyato/RhythMC-Docs',
         },
         blog: false,
         theme: {
@@ -61,21 +61,17 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        title: 'RhythMC',
+
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
+            href: 'https://github.com/KazuhaAyato/RhythMC-Docs',
+            label: 'GitHub',
+            position: 'right',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://www.frkovo.cn/',
+            label: 'FrkBlogs',
             position: 'right',
           },
         ],
@@ -84,46 +80,46 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '好的RhythMC 爱来自Frkovo',
             items: [
               {
-                label: 'Tutorial',
-                to: '/a',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'FrkBlogs',
+                href: 'https://www.frkovo.cn',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
+                label: 'BiliBili',
+                href: 'https://space.bilibili.com/482009286'
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/KazuhaAyato'
               },
             ],
           },
+          {
+            title: '好的服务器，爱来自梦幻星际',
+            items: [
+              {
+                label: '官网',
+                href: 'https://www.mhxj.club',
+              },
+              {
+                label: '加群',
+                href: 'https://www.mhxj.club/join',
+              },
+              {
+                label: 'e',
+                href: 'https://iqboost.org',
+              },
+            ],
+          },
+          {
+            title: '更多',
+            items: [
+            ],
+          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Frkovo.cn Build with Docsaurus`,
       },
       prism: {
         theme: prismThemes.github,
