@@ -6,8 +6,6 @@ sidebar_position: 3
   
 修改Note的速度。
 
-SPEED为0时恢复谱面原本的移速
-
 ## 谱面格式
 ```json
     {
