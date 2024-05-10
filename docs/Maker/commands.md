@@ -33,6 +33,10 @@
 
 - `/editor edit <chunk编号>`: 设置当前的chunk id。
 
+## 偏移Chunk
+
+- `/editor shift <tick>`: 将本Chunk整体偏移几个tick
+
 ## 设置特效
 
 - `/editor effects hologram <开始Tick> <持续Tick> <相对x> <相对y> <内容>`: 设置一个全息图特效。
@@ -40,6 +44,8 @@
 - `/editor effects invert <开始Tick> <持续Tick>`: 设置一个反转特效。
 
 - `/editor effects message <开始Tick> <信息>`: 设置一个消息特效。
+
+- `/editor effects speed <开始tick> <速度>`: 设置一个速度特效
 
 - `/editor effects effect <开始Tick> <持续Tick> <药水类型>`: 设置一个药水特效。
 

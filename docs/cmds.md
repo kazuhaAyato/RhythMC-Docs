@@ -5,6 +5,8 @@ sidebar_position: 2
 
 ## 玩家可用
 
+- `/spawn`: 回到大厅
+
 - `/rhymc about`：服务器信息。
 
 - `/rhymc help`：显示帮助信息。
