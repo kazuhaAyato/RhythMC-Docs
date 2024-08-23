@@ -5,6 +5,8 @@ sidebar_position: 2
 
 ## 玩家可用
 
+- `/duel <player> <lvl:beatmap>` 决斗一名玩家
+
 - `/spawn`: 回到大厅
 
 - `/rhymc about`：服务器信息。
