@@ -1,5 +1,11 @@
 # 编辑器命令
 
+:::danger[注意]
+本文档可能落后于插件版本
+如果你不知道或者有误,请使用/editor获取相应指令的帮助！
+::
+
+
 ## 创建谱面
 
 - `/editor create <曲名> <曲师> <长度>`: 创建一个新的谱面。
@@ -39,7 +45,7 @@
 
 ## 设置特效
 
-- `/editor effects hologram <开始Tick> <持续Tick> <相对x> <相对y> <内容>`: 设置一个全息图特效。
+- `/editor effects hologram <开始Tick> <持续Tick> <相对x> <相对y> <相对z> <内容>`: 设置一个全息图特效。
 
 - `/editor effects invert <开始Tick> <持续Tick>`: 设置一个反转特效。
 
@@ -47,7 +53,7 @@
 
 - `/editor effects speed <开始tick> <速度>`: 设置一个速度特效
 
-- `/editor effects effect <开始Tick> <持续Tick> <药水类型>`: 设置一个药水特效。
+- `/editor effects effect <开始Tick> <持续Tick> <药水等级> <药水类型>`: 设置一个药水特效。
 
 - `/editor effects time <开始Tick> <持续Tick> <时间>`: 设置一个时间特效。
 

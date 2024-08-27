@@ -3,6 +3,11 @@ sidebar_position: 2
 ---
 # 命令列表
 
+:::danger[注意]
+本文档可能落后于插件版本
+如果你不知道或者有误,请使用/rhymc获取相应指令的帮助！
+::
+
 ## 玩家可用
 
 - `/duel <player> <lvl:beatmap>` 决斗一名玩家

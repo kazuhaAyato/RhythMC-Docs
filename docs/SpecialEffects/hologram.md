@@ -15,7 +15,8 @@ sidebar_position: 2
         "duration":36,
         "hologram-loc":[
             0,
-            1
+            1,
+            0
         ],
         "hologram-contents":[
             "&b&lHi!"
@@ -30,11 +31,12 @@ hologram-contents: [内容]
 
 ### 命令
 
-`/editor effects hologram <开始tick> <持续tick> <相对x> <相对y> <内容>`  
+`/editor effects hologram <开始tick> <持续tick> <相对x> <相对y> <相对z> <内容>`  
 **参数&lt;开始tick>** : 整数，表示开始时间的绝对tick.  
 **参数&lt;持续tick>** : 整数，表示持续时间的长度(tick)  
 **参数&lt;相对x>** : 小数，表示与中心点的相对x坐标  
 **参数&lt;相对y>** : 小数，表示与中心点的相对y坐标  
+**参数&lt;相对z>** : 小数，表示与中心点的相对z坐标
 **参数&lt;内容>** : 可变数组，表示内容。支持`PlaceholderAPI`以及`&`颜色代码
 
 *没看懂? 举个例子吧！*

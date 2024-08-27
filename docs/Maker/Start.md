@@ -63,6 +63,13 @@ Frk将会帮你制作好材质包。
 ![lunar](img/speed.png)
 :::
 
+### 设置谱面流速
+你可能会遇到这个错误： E:未设置谱面流速  
+这是由于RhythMC的谱面流速是由**谱师决定**并非玩家决定。  
+你需要根据歌曲的BPM来选择一个合适的流速。  
+建议流速范围: `1.0-1.8` 单位: `b/gt 格/游戏刻`  
+使用`/editor setmeta flow-speed <流速>` 来设置流速。
+
 ### 更换Chunck
 当你结束了一个chunck的修改工作，你可以使用`/editor edit <新chunck>` 来保存当前Chunck并开启新的Chunck编辑  
 

@@ -13,6 +13,7 @@ sidebar_position: 2
         "effect-type":"EFFECT",
         "start-tick":10,
         "effect-id":"NAUSEA",
+        "amplifier": 5,
         "duration":100
     }
 ```
@@ -24,7 +25,8 @@ effect-id : 特效的MinecraftID
 
 ### 命令
 
-`/editor effects effect <开始tick> <持续tick> <特效ID>`  
+`/editor effects effect <开始tick> <持续tick> <药水等级> <特效ID>`  
 **参数&lt;开始tick>** : 整数，表示开始时间的绝对tick.  
 **参数&lt;持续tick>** : 整数，表示持续时间的长度(tick)
+**参数&lt;药水等级>** : 整数，表示药水等级
 **参数&lt;特效ID>** : 字符串，代表特效的MinecraftID。你可以在MinecraftWiki找到各个效果对应的MinecraftID
