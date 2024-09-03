@@ -1,10 +1,14 @@
+---
+sidebar_position: 2
+---
+
 # PF等级分
 
 ## 什么是Pf等级分？
 
 Proficiency Score (Pf等级分)在RhythMC是用来衡量一名玩家的实力的重要参考目标。
 
-相似机制：Arcaea ptt, Phigros rks, MaimaiDX rating.
+相似机制：Arcaea ptt, Phigros rks, MaimaiDX rating。
 
 ## 计算方法。
 
@@ -23,4 +27,4 @@ $单曲pf = Difficulity \times (\frac{acc\% - 55\%}{45\%})^2 $
 
 ### b15 = 玩家单曲pf最高的十五张不同的谱面。
 
-没有特殊情况
+没有特殊情况.
