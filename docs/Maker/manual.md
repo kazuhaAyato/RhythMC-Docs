@@ -4,7 +4,7 @@
 
 ```json
 {
-// RhythMC Beatmap v1.0
+// RhythMC Beatmap v1.2 / alias/comments update
     "meta":{ // 谱面的基本信息
 		"name":"Intro", // 谱面名称
 		"composer":"Frkovo", // 作曲家
@@ -13,7 +13,13 @@
 		"offset":3, // 谱面整体偏移量
 		"flow-speed":1.0, // 音符流速
 		"uuid":"ad3dac5d-7af7-b63e-c57b-abbf4478e1b6", // 谱面唯一uuid
-		"length":3320 // 歌曲长度
+		"length":3320, // 歌曲长度
+		"alias":"观星者", // 别名: aka.中文翻译 balabala
+		"comments":[ // 谱面警告什么之类的
+			"[FINE]这是一个测试",
+			"[WARN]光敏性癫痫",
+			"[SEVERE]IDK WHAT SEVERE STUFF IT CAN DO"
+		] 
 	},
 	"frames":[ // 帧
 		{ // 每个帧都由一个JSONObject代替。

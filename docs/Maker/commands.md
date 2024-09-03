@@ -43,6 +43,10 @@
 
 - `/editor shift <tick>`: 将本Chunk整体偏移几个tick
 
+## 设置谱面警告
+
+- `/editor comments add/remove/list`: 操作谱面解释/警告什么的. 输入光敏性癫痫将会自动替换为光敏性癫痫警告文本
+
 ## 设置特效
 
 - `/editor effects hologram <开始Tick> <持续Tick> <相对x> <相对y> <相对z> <内容>`: 设置一个全息图特效。
