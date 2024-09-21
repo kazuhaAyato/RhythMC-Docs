@@ -3,7 +3,7 @@
 :::danger[注意]
 本文档可能落后于插件版本
 如果你不知道或者有误,请使用/editor获取相应指令的帮助！
-::
+:::
 
 #### `calc`
 - **描述**: 切换计算器状态。
@@ -89,7 +89,7 @@
 - **描述**: 设置一个全息图特效。
 - **用法**: `/editor effects hologram <开始Tick> <持续Tick> <相对x> <相对y> <相对z> <内容>`
 
-#### `effects textDisplay`
+<!-- #### `effects textDisplay`
 - **描述**: 设置一个高级全息特效。
 - **用法**: `/editor effects textDisplay <开始Tick> <相对x> <相对y> <相对z> <内容>`
 
@@ -119,7 +119,7 @@
 
 #### `effects textTrans Remove`
 - **描述**: 全息特效-移除。
-- **用法**: `/editor effects textTrans Remove <目标ID> <Tick>`
+- **用法**: `/editor effects textTrans Remove <目标ID> <Tick>` -->
 
 #### `effects invert`
 - **描述**: 设置一个反转特效。
