@@ -14,7 +14,18 @@ sidebar_position: 2
 - 事先计算好的歌曲Tick长度  **计算公式: 歌曲长度(秒) * 20**
 - 一个有耐心的性子
 
-## 1. 找Frk制作材质包
+## 1. 填写群公告内的文档
+
+![829006147822520ac7b0913b5343db79](https://revproxy.frknet.us.kg/https://github.com/user-attachments/assets/82a44b80-5e0b-41f0-acda-5882e4b95d0c)
+点开后你将看到这些内容  
+![image](https://revproxy.frknet.us.kg/https://github.com/user-attachments/assets/1aa9c8bb-c08e-4a9b-8335-b834ee721560)
+往下滑 按这张图的要求填写：  
+![49184d7eebb814e71f9a992e62cc0e2e](https://github.com/user-attachments/assets/8fdf76f7-75e5-4687-9d80-057facf48897)
+填写后请等待授权确认组确认曲师授权。
+
+## 2. 找Frk制作材质包
+
+当你获得了曲师的授权，你就可以找Frk制作材质包了。  
 
 ![iq](img/iq.png)  
 
