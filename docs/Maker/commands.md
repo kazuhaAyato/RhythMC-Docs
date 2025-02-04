@@ -1,20 +1,16 @@
-# 编辑器命令
-
-:::danger[注意]
-本文档可能落后于插件版本
-如果你不知道或者有误,请使用/editor获取相应指令的帮助！
-:::
-
-#### `calc`
-- **描述**: 切换计算器状态。
-- **用法**: `/editor calc`
-
+  # 编辑器命令
+  
+  :::danger[注意]
+  本文档可能落后于插件版本
+  如果你不知道或者有误,请使用/editor获取相应指令的帮助！
+  :::
+  
 #### `help`
-- **描述**: 显示帮助信息。
+- **描述**: 显示帮助。
 - **用法**: `/editor help [页数]`
 
 #### `create`
-- **描述**: 创建一个新的谱面。使用 `%20` 代替空格。
+- **描述**: 创建一个新的谱面 使用%20代替空格！
 - **用法**: `/editor create <曲名> <曲师> <长度>`
 
 #### `finish`
@@ -24,6 +20,14 @@
 #### `judge`
 - **描述**: 审核谱面。
 - **用法**: `/editor judge <类型: pass/reject> [原因]`
+
+#### `coauthors add`
+- **描述**: 添加合作谱面作者。
+- **用法**: `/editor coauthors add <玩家>`
+
+#### `coauthors remove`
+- **描述**: 移除合作谱面作者。
+- **用法**: `/editor coauthors remove <玩家>`
 
 #### `eval`
 - **描述**: 计算一个表达式。
@@ -48,6 +52,14 @@
 #### `shift`
 - **描述**: 偏移当前Block。
 - **用法**: `/editor shift <偏移量>`
+
+#### `upload`
+- **描述**: 上传谱面到云端以手动编辑。
+- **用法**: `/editor upload`
+
+#### `download`
+- **描述**: 下载并覆盖当前谱面。
+- **用法**: `/editor download <pasteURL>`
 
 #### `read`
 - **描述**: 读取一个谱面。
@@ -86,40 +98,8 @@
 - **用法**: `/editor edit <chunk>`
 
 #### `effects hologram`
-- **描述**: 设置一个全息图特效。
+- **描述**: 设置一个全��图特效。
 - **用法**: `/editor effects hologram <开始Tick> <持续Tick> <相对x> <相对y> <相对z> <内容>`
-
-<!-- #### `effects textDisplay`
-- **描述**: 设置一个高级全息特效。
-- **用法**: `/editor effects textDisplay <开始Tick> <相对x> <相对y> <相对z> <内容>`
-
-#### `effects textTrans Transformations`
-- **描述**: 全息特效-变换。
-- **用法**: `/editor effects textTrans Transformations <目标ID> <起始Tick> <目标位置x> <目标位置y> <目标位置z> <旋转角度> <大小变化> <持续时间>`
-
-#### `effects textTrans Opacity`
-- **描述**: 全息特效-透明度。
-- **用法**: `/editor effects textTrans Opacity <目标ID> <起始Tick> <透明度:0-255>`
-
-#### `effects textTrans BackgroundColor`
-- **描述**: 全息特效-背景颜色。
-- **用法**: `/editor effects textTrans BackgroundColor <目标ID> <起始Tick> <颜色>`
-
-#### `effects textTrans Shadow`
-- **描述**: 全息特效-是否阴影。
-- **用法**: `/editor effects textTrans Shadow <目标ID> <起始Tick> <是/不是>`
-
-#### `effects textTrans Glowing`
-- **描述**: 全息特效-发光颜色。
-- **用法**: `/editor effects textTrans Glowing <目标ID> <起始Tick> <颜色>`
-
-#### `effects textTrans Text`
-- **描述**: 全息特效-换字。
-- **用法**: `/editor effects textTrans Text <目标ID> <起始Tick> <内容>`
-
-#### `effects textTrans Remove`
-- **描述**: 全息特效-移除。
-- **用法**: `/editor effects textTrans Remove <目标ID> <Tick>` -->
 
 #### `effects invert`
 - **描述**: 设置一个反转特效。
