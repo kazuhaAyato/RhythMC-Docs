@@ -1,9 +1,30 @@
 
 # 手动修改谱面文件
 
-## 获取谱面文件
-打开编辑器，输入 `/editor 
 
+## 命令说明
+- `/editor upload`：获取谱面源文件
+- `/editor download <url>`：导入修改后的谱面文件
+
+## 操作流程
+1. **获取谱面源文件**  
+   输入 `/editor upload` 命令，获取一个 URL。用浏览器打开该 URL，即可查看谱面的所有内容。
+
+2. **编辑谱面文件**  
+   - 打开一个 JSON 编辑器（推荐使用 VSCode）。
+   - 将谱面内容全选并复制到编辑器内。
+   - 根据需求修改内容。
+
+3. **上传修改后的谱面文件**  
+   - 打开 [https://paste.frkovo.cn](https://paste.frkovo.cn)。
+   - 将修改后的谱面文件内容复制粘贴到页面中。
+   - 点击左上角的 **Upload** 按钮。
+
+4. **导入修改后的谱面**  
+   - 复制上传后获得的 URL。
+   - 返回编辑器，输入 `/editor download <复制的URL>`，即可完成导入。
+
+## 谱面示例
 ```json
 {
 // RhythMC Beatmap v1.2 / alias/comments update
